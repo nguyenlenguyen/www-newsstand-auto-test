@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test">
+    <test name="Smoke Test on iPad Portrait">
+        <parameter name="browser" value="phantomjs_emulation"/>
+        <parameter name="device" value="iPad"/>
+        <parameter name="orientation" value="portrait"/>
+        <classes>
+            <class name="testCases.Tests.SmokeTest"/>
+        </classes>
+    </test>
+</suite>
